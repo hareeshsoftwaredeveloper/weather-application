@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+.hot{
+  background-image: url("https://img.freepik.com/free-vector/sun-shining-blue-sky-with-white-clouds-realistic-background_1284-10467.jpg?w=740&t=st=1699944212~exp=1699944812~hmac=5e6ef9435ec7b07660675ed65a72a886553c674a032c64363e457958f16c2dca");
+  
+}
+.very-hot{
+  background-image: url("https://img.freepik.com/free-vector/sunshine-background-poster_1284-9444.jpg?w=740&t=st=1699944569~exp=1699945169~hmac=0725d41b8db4b7b572a597474af9bdcb50b8a77cb3fd43e83d994ef2bfb8a29b");
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cool{
+  background-image: url("https://www.freepik.com/free-photo/sun-shining-dark-clouds-green-field_11890142.htm#query=sunny%20weather&position=49&from_view=search&track=ais");
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-img {
+  height: 100vh;
+  background-repeat: repeat;
+  box-sizing: border-box; 
+  margin-top: -20px;
+  width: 100vw;
 }
